@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	background: #ff5e99;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.pendulum {
+	display: flex;
+}
+
+.ball {
+	background: #fda98f;
+	width: 40px;
+	height: 40px;
+}
