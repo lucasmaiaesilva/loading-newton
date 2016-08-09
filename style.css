@@ -13,6 +13,9 @@ body {
 
 .pendulum {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 400px;
 }
 
 .ball {
@@ -23,6 +26,19 @@ body {
 	position: relative;
 }
 
-.ball:nth-child(2) {
+/*.ball:nth-child(2) {
 	margin-left: 50px;
+}*/
+
+.ball:first-child {
+	position: relative;
+	left: -50px;
+	top: -20px;
+}
+
+.ball:last-child {
+	position: relative;
+	right: 0;
+	top: 0;
+
 }
