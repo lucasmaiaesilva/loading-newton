@@ -6,11 +6,13 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="pendulum">
-		<div class="ball"></div>
-		<div class="ball"></div>
-		<div class="ball"></div>
-		<div class="ball"></div>
+	<div class="container">
+		<div class="pendulum">
+			<div class="ball"></div>
+			<div class="ball"></div>
+			<div class="ball"></div>
+			<div class="ball"></div>
+		</div>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 	<script>
@@ -22,8 +24,8 @@
 			ease: Power4.easeIn
 		})
 		tl.to('.ball:last-child', speed, {
-  			top: "-40px",
-  			right: "-60px",
+  			top: "-4em",
+  			right: "-7em",
   			ease: Power4.easeOut,
 		})
 		tl.to('.ball:last-child', speed, {
@@ -32,8 +34,8 @@
 			ease: Power4.easeIn,	
 		})
 		tl.to('.ball:first-child', speed, {
-			top: "-40px",
-			left: "-60px",
+			top: "-4em",
+			left: "-7em",
 			ease: Power4.easeOut
 		})
 		tl.play();

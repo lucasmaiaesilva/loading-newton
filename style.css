@@ -5,6 +5,7 @@
 
 body {
 	display: flex;
+	font-size: 8px;
 	background: #f95456;
 	height: 100vh;
 	justify-content: center;
@@ -29,8 +30,8 @@ body {
 
 .ball:first-child {
 	position: relative;
-	left: -60px;
-	top: -40px;
+	left: -7em;
+	top: -4em;
 }
 
 .ball:last-child {
@@ -38,4 +39,21 @@ body {
 	right: 0;
 	top: 0;
 
+}
+
+@media (max-width: 980px) {
+
+	body {
+		font-size: 18px;
+	}
+
+	.pendulum {
+		flex-grow: 1;
+	}
+
+	.ball {
+		margin: 0 3px;
+		width: 68px;
+		height: 68px;
+	}
 }
