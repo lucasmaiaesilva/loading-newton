@@ -15,7 +15,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 	<script>
 		var tl = new TimelineMax({ repeat: -1 });
-		var speed = .4;
+		var speed = .35;
 		tl.to('.ball:first-child', speed, {
 			top: 0,
 			left: 0,
@@ -29,7 +29,7 @@
 		.to('.ball:last-child', speed, {
 			top: 0,
 			right: 0,
-			ease: Power4.easeIn	
+			ease: Power4.easeIn
 		})
 		.to('.ball:first-child', speed, {
 			top: "-40px",
