@@ -23,15 +23,15 @@ body {
 	background: rgba(255,255,255, .42);
 	width: 36px;
 	height: 36px;
-
+	border-radius: 50%;
 	position: relative;
 	margin: 0 1px;
 }
 
 .ball:first-child {
 	position: relative;
-	left: -60px;
-	top: -40px;
+	left: -6em;
+	top: -4em;
 }
 
 .ball:last-child {
