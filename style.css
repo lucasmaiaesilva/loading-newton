@@ -30,8 +30,8 @@ body {
 
 .ball:first-child {
 	position: relative;
-	left: -6em;
-	top: -4em;
+	left: -6rem;
+	top: -4rem;
 }
 
 .ball:last-child {
